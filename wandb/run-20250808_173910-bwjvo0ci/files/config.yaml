@@ -1,0 +1,107 @@
+_wandb:
+    value:
+        cli_version: 0.21.1
+        e:
+            e44m8qzpma93u0cfgudvw449fqnfv3e9:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M2
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "28991029248"
+                args:
+                    - --model_name
+                    - microsoft/Phi-3.5-mini-instruct
+                    - --batch_size
+                    - "1"
+                    - --epochs
+                    - "3"
+                    - --learning_rate
+                    - "2e-05"
+                codePath: train_model.py
+                codePathLocal: train_model.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "444511768576"
+                email: alex.binh.woods@gmail.com
+                executable: /Users/alexanderwoods/SLM-FineTuning-For-NER/ner_env/bin/python
+                git:
+                    commit: 3ba3fc400c82e8b171e221b5e8dd9a736c515956
+                    remote: https://github.com/Alex0420W/SLM-FineTuning-For-NER.git
+                host: Alexanders-MacBook-Pro-8.local
+                memory:
+                    total: "17179869184"
+                os: macOS-13.4-arm64-arm-64bit-Mach-O
+                program: /Users/alexanderwoods/SLM-FineTuning-For-NER/train_model.py
+                python: CPython 3.13.2
+                root: /Users/alexanderwoods/SLM-FineTuning-For-NER
+                startedAt: "2025-08-08T23:39:10.739442Z"
+                writerId: e44m8qzpma93u0cfgudvw449fqnfv3e9
+        m: []
+        python_version: 3.13.2
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+                - 98
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+                - 98
+            "3":
+                - 13
+                - 16
+            "4": 3.13.2
+            "5": 0.21.1
+            "6": 4.48.3
+            "12": 0.21.1
+            "13": darwin-arm64
+dataset_paths:
+    value:
+        test: data/test_ner.jsonl
+        train: data/train_ner.jsonl
+        val: data/val_ner.jsonl
+max_length:
+    value: 512
+model_name:
+    value: microsoft/Phi-3.5-mini-instruct
+output_dir:
+    value: ./models/ner_finetuned_model
+training_args:
+    value:
+        dataloader_pin_memory: false
+        deepspeed: deepspeed_config.json
+        eval_steps: 100
+        evaluation_strategy: steps
+        fp16: true
+        gradient_accumulation_steps: 4
+        gradient_checkpointing: true
+        greater_is_better: false
+        learning_rate: 2e-05
+        load_best_model_at_end: true
+        logging_steps: 10
+        max_length: 256
+        metric_for_best_model: eval_loss
+        num_train_epochs: 3
+        per_device_eval_batch_size: 1
+        per_device_train_batch_size: 1
+        remove_unused_columns: false
+        report_to: wandb
+        save_steps: 500
+        save_strategy: steps
+        warmup_ratio: 0.1

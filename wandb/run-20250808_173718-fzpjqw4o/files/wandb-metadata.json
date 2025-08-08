@@ -1,0 +1,37 @@
+{
+  "os":  "macOS-13.4-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.2",
+  "startedAt":  "2025-08-08T23:37:18.159957Z",
+  "program":  "/Users/alexanderwoods/SLM-FineTuning-For-NER/train_model.py",
+  "codePath":  "train_model.py",
+  "codePathLocal":  "train_model.py",
+  "git":  {
+    "remote":  "https://github.com/Alex0420W/SLM-FineTuning-For-NER.git",
+    "commit":  "3ba3fc400c82e8b171e221b5e8dd9a736c515956"
+  },
+  "email":  "alex.binh.woods@gmail.com",
+  "root":  "/Users/alexanderwoods/SLM-FineTuning-For-NER",
+  "host":  "Alexanders-MacBook-Pro-8.local",
+  "executable":  "/Users/alexanderwoods/SLM-FineTuning-For-NER/ner_env/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "420879888384"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M2",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "swapTotalBytes":  "5368709120",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "9e3oxqawls6obud1bhlnw9z692uilrm8"
+}

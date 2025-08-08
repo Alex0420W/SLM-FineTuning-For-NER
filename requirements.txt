@@ -19,3 +19,32 @@ huggingface_hub==0.24.0    # needed by 🤗 Datasets to fetch from the Hub
 peft==0.10.0               # LoRA / PEFT utilities (used in later training scripts)
 accelerate==0.30.1         # optional – for distributed / mixed‑precision training
 # -------------------------------------------------
+# Core ML and Training Dependencies
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+accelerate>=0.24.0
+peft>=0.7.0
+tokenizers>=0.15.0
+
+# Training and Experimentation
+wandb>=0.16.0
+tensorboard>=2.14.0
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+psutil>=5.9.0
+gpustat>=1.1.0
+
+# Optional: For advanced features
+# flash-attn>=2.3.0  # Uncomment if using flash attention
+# bitsandbytes>=0.41.0  # Uncomment if using 4-bit quantization
