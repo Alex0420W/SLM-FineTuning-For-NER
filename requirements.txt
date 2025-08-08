@@ -1,0 +1,21 @@
+# -------------------------------------------------
+# Core libraries required by curate_ner_datasets.py
+# -------------------------------------------------
+datasets==2.19.0          # 🤗 Datasets – data loading & preprocessing
+tqdm==4.66.5              # progress bars
+pandas==2.2.2             # optional – only used for the MIT‑R placeholder routine
+requests==2.32.3          # HTTP GET for the MIT‑R CSV download
+huggingface_hub==0.24.0    # needed by 🤗 Datasets to fetch from the Hub
+# -------------------------------------------------
+# Optional – only if you plan to run inference / fine‑tune afterwards
+# -------------------------------------------------
+# torch==2.3.0               # CPU‑only build (no CUDA)
+# torch==2.3.0+cu121        # CUDA 12.1 (replace 121 with your CUDA version)
+#   – install from the PyTorch wheel index, e.g.:
+#   pip install torch==2.3.0+cu121 -f https://download.pytorch.org/whl/torch_stable.html
+# -------------------------------------------------
+# Extras you might find handy while developing
+# -------------------------------------------------
+peft==0.10.0               # LoRA / PEFT utilities (used in later training scripts)
+accelerate==0.30.1         # optional – for distributed / mixed‑precision training
+# -------------------------------------------------

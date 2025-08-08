@@ -1,0 +1,2396 @@
+No,Instruction,Expected Output,Source
+1,"# Entities
+- B-MISC
+- I-MISC
+- B-LOC
+
+# Text
+"" Neither the National Socialists ( Nazis ) nor the communists dared to kidnap an American citizen , "" he shouted , in an oblique reference to his extradition to Germany from Denmark . ""","{'B-MISC': ['National', 'Nazis', 'American'], 'I-MISC': ['Socialists'], 'B-LOC': ['Germany', 'Denmark']}",CONLL2003
+2,"# Entities
+- B-LOC
+
+# Text
+TUNIS 1996-08-22",{'B-LOC': ['TUNIS']},CONLL2003
+3,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Werder Bremen 3 0 1 2 4 6 1","{'B-ORG': ['Werder'], 'I-ORG': ['Bremen']}",CONLL2003
+4,"# Entities
+- B-MISC
+- B-LOC
+
+# Text
+Heavy fighting broke out between two rival Kurdish factions in northern Iraq at midnight Sunday and at least 29 people were killed , one of the groups said on Monday .","{'B-MISC': ['Kurdish'], 'B-LOC': ['Iraq']}",CONLL2003
+5,"# Entities
+- B-LOC
+
+# Text
+LONDON 1996-08-28",{'B-LOC': ['LONDON']},CONLL2003
+6,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+-- Jonathan Birt , London Newsroom +44 171 542 7717","{'B-PER': ['Jonathan'], 'I-PER': ['Birt'], 'B-ORG': ['London'], 'I-ORG': ['Newsroom']}",CONLL2003
+7,"# Entities
+- B-LOC
+- I-LOC
+- B-MISC
+- I-MISC
+
+# Text
+New York Dow Jones industrial average -- 5,778.00 ( May 22/96 )","{'B-LOC': ['New'], 'I-LOC': ['York'], 'B-MISC': ['Dow'], 'I-MISC': ['Jones']}",CONLL2003
+8,"# Entities
+- B-ORG
+- I-ORG
+- B-MISC
+
+# Text
+Officials from the Organisation for Security and Cooperation in Europe ( OSCE ) are considering the postponement following allegations of serious irregularities in the registration of Serb refugees .","{'B-ORG': ['Organisation', 'OSCE'], 'I-ORG': ['for', 'Security', 'and', 'Cooperation', 'in', 'Europe'], 'B-MISC': ['Serb']}",CONLL2003
+9,"# Entities
+- B-ORG
+
+# Text
+It said the KDP was responsible for breaking the previous ceasefire by refusing to endorse it publicly .",{'B-ORG': ['KDP']},CONLL2003
+10,"# Entities
+- B-PER
+- B-MISC
+- I-MISC
+- B-LOC
+
+# Text
+Smirnov said the Olympic Committee might ask the government to take measures to protect the country 's best athletes , some of whom have already chosen to live abroad for fear of a surge in crime in post-Soviet Russia .","{'B-PER': ['Smirnov'], 'B-MISC': ['Olympic', 'post-Soviet'], 'I-MISC': ['Committee'], 'B-LOC': ['Russia']}",CONLL2003
+11,"# Entities
+- B-ORG
+- I-ORG
+- B-PER
+- I-PER
+
+# Text
+"" We have not had contact with the kidnappers nor do we have any leads to take us to where they might be held , "" Chief of Judicial Police Manuel Alvarado told Reuters .","{'B-ORG': ['Judicial', 'Reuters'], 'I-ORG': ['Police'], 'B-PER': ['Manuel'], 'I-PER': ['Alvarado']}",CONLL2003
+12,"# Entities
+- B-PER
+
+# Text
+In a written statement , distributed by the Clinton campaign , Morris avoided comment on published allegations that he had engaged in a year-long affair with a $ 200-an-hour prostitute .","{'B-PER': ['Clinton', 'Morris']}",CONLL2003
+13,"# Entities
+- B-LOC
+
+# Text
+Benin lead 4-1 from the first leg",{'B-LOC': ['Benin']},CONLL2003
+14,"# Entities
+- B-MISC
+- B-PER
+- I-PER
+
+# Text
+"" I get the feeling that everything is done here for the American players and they forget about all the other players , "" said Stich , who lost the 1994 Open final to Andre Agassi .","{'B-MISC': ['American', 'Open'], 'B-PER': ['Stich', 'Andre'], 'I-PER': ['Agassi']}",CONLL2003
+15,"# Entities
+
+
+# Text
+Now , I resign so I will not become the issue , "" he said .",{},CONLL2003
+16,"# Entities
+- B-MISC
+
+# Text
+The loan is at LIBOR plus one percent , it said .",{'B-MISC': ['LIBOR']},CONLL2003
+17,"# Entities
+
+
+# Text
+The brake action is very poor and the tower said it 's medium .",{},CONLL2003
+18,"# Entities
+- B-LOC
+
+# Text
+Venezuela FinMin to make statement midday Thursday .",{'B-LOC': ['Venezuela']},CONLL2003
+19,"# Entities
+
+
+# Text
+Dividend payable October 8",{},CONLL2003
+20,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+Brian McRae singled in Tyler Houston in the top of the ninth inning to snap a tie as the Chicago Cubs avoided a three-game sweep with 3-2 victory over the Atlanta Braves on Sunday .","{'B-PER': ['Brian', 'Tyler'], 'I-PER': ['McRae', 'Houston'], 'B-ORG': ['Chicago', 'Atlanta'], 'I-ORG': ['Cubs', 'Braves']}",CONLL2003
+21,"# Entities
+- B-ORG
+
+# Text
+Swindon 2 0 1 1 1 3 1",{'B-ORG': ['Swindon']},CONLL2003
+22,"# Entities
+
+
+# Text
+Halftime 2-0 .",{},CONLL2003
+23,"# Entities
+- B-ORG
+- B-MISC
+
+# Text
+Berlex also charges that Avonex is so similar to its MS drug , Betaseron , that it is a patent infringement .","{'B-ORG': ['Berlex'], 'B-MISC': ['Avonex', 'Betaseron']}",CONLL2003
+24,"# Entities
+- B-ORG
+
+# Text
+Ipswich 3 1 1 1 6 4 4",{'B-ORG': ['Ipswich']},CONLL2003
+25,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Sokol Tychy 7 4 0 3 14 15 12","{'B-ORG': ['Sokol'], 'I-ORG': ['Tychy']}",CONLL2003
+26,"# Entities
+- B-ORG
+
+# Text
+PITTSBURGH 56 76 .424 15",{'B-ORG': ['PITTSBURGH']},CONLL2003
+27,"# Entities
+- B-PER
+- I-PER
+
+# Text
+52 ; A. Cowan 5-68 ) .","{'B-PER': ['A.'], 'I-PER': ['Cowan']}",CONLL2003
+28,"# Entities
+- B-LOC
+
+# Text
+MELBOURNE 1996-08-26",{'B-LOC': ['MELBOURNE']},CONLL2003
+29,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Company name Companion Marble ( Holdings ) Ltd","{'B-ORG': ['Companion', 'Holdings', 'Ltd'], 'I-ORG': ['Marble']}",CONLL2003
+30,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+-- Royal Oak shares were down 1/16 at 3-11/16 .","{'B-ORG': ['Royal'], 'I-ORG': ['Oak']}",CONLL2003
+31,"# Entities
+
+
+# Text
+In the original state budget , approved in March , revenues were envisaged at around 16.98 trillion lei and expenditures 20.17 trillion lei for 1996 .",{},CONLL2003
+32,"# Entities
+- B-LOC
+- B-ORG
+- I-ORG
+
+# Text
+Fairview , Texas , $ 1.82 million deal Baa1 - Moody 's .","{'B-LOC': ['Fairview', 'Texas'], 'B-ORG': ['Moody'], 'I-ORG': [""'s""]}",CONLL2003
+33,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+GKS Belchatow 7 3 0 4 9 9 9","{'B-ORG': ['GKS'], 'I-ORG': ['Belchatow']}",CONLL2003
+34,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+1860 Munich 1 Borussia Dortmund 3","{'B-ORG': ['1860', 'Borussia'], 'I-ORG': ['Munich', 'Dortmund']}",CONLL2003
+35,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Wasim Akram 128 29 350 11 31.81","{'B-PER': ['Wasim'], 'I-PER': ['Akram']}",CONLL2003
+36,"# Entities
+- B-MISC
+- I-MISC
+
+# Text
+S. Korean won ends up on dollar position unwinding .","{'B-MISC': ['S.'], 'I-MISC': ['Korean']}",CONLL2003
+37,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+
+# Text
+140 Robert Allenby ( Australia ) 69 71 , Mark Roe 69 71","{'B-PER': ['Robert', 'Mark'], 'I-PER': ['Allenby', 'Roe'], 'B-LOC': ['Australia']}",CONLL2003
+38,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+
+# Text
+3. Irina Privalova ( Russia ) 22.68","{'B-PER': ['Irina'], 'I-PER': ['Privalova'], 'B-LOC': ['Russia']}",CONLL2003
+39,"# Entities
+- B-PER
+- B-LOC
+
+# Text
+He said Ibrahim was still in Amman .","{'B-PER': ['Ibrahim'], 'B-LOC': ['Amman']}",CONLL2003
+40,"# Entities
+- B-LOC
+
+# Text
+Death toll of Algeria bomb put at seven-newspaper .",{'B-LOC': ['Algeria']},CONLL2003
+41,"# Entities
+
+
+# Text
+Sale Amount : 6,310,000",{},CONLL2003
+42,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Ijaz Ahmed 3 6 1 344 141 68.80","{'B-PER': ['Ijaz'], 'I-PER': ['Ahmed']}",CONLL2003
+43,"# Entities
+
+
+# Text
+BALANCE OF PAYMENTS",{},CONLL2003
+44,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+- B-ORG
+
+# Text
+10. Olaf Ludwig ( Germany ) Telekom 1 minute 44 seconds","{'B-PER': ['Olaf'], 'I-PER': ['Ludwig'], 'B-LOC': ['Germany'], 'B-ORG': ['Telekom']}",CONLL2003
+45,"# Entities
+- B-PER
+- B-ORG
+- I-ORG
+- I-PER
+- B-LOC
+- I-LOC
+
+# Text
+Johnson is the second manager to be hospitalized this week after California Angels skipper John McNamara was admitted to New York 's Columbia Presbyterian Hospital on Wednesday with a blood clot in his left calf .","{'B-PER': ['Johnson', 'John'], 'B-ORG': ['California'], 'I-ORG': ['Angels'], 'I-PER': ['McNamara'], 'B-LOC': ['New', 'Columbia'], 'I-LOC': ['York', 'Presbyterian', 'Hospital']}",CONLL2003
+46,"# Entities
+
+
+# Text
+None of the attackers has been caught .",{},CONLL2003
+47,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+* Baxter International Inc has reached an agreement to acquire Austria 's Immuno International AG in a complex deal valued at $ 715 miilion .","{'B-ORG': ['Baxter', 'Immuno'], 'I-ORG': ['International', 'Inc', 'International', 'AG'], 'B-LOC': ['Austria']}",CONLL2003
+48,"# Entities
+- B-LOC
+- I-LOC
+- B-ORG
+- B-MISC
+
+# Text
+S. Korea Daewoo , Dacom units in Polish telecom JV .","{'B-LOC': ['S.'], 'I-LOC': ['Korea'], 'B-ORG': ['Daewoo', 'Dacom'], 'B-MISC': ['Polish']}",CONLL2003
+49,"# Entities
+
+
+# Text
+32,000",{},CONLL2003
+50,"# Entities
+- B-ORG
+
+# Text
+Partizan 2 2 0 0 6 2 6",{'B-ORG': ['Partizan']},CONLL2003
+51,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- I-LOC
+- B-MISC
+
+# Text
+Jomhuri Eslami quoted the West Azerbaijan province security chief as saying those held confessed to gathering confidential information , photographing strategic sites , doing propaganda against state officials and "" spreading pan-Turkism "" .","{'B-ORG': ['Jomhuri'], 'I-ORG': ['Eslami'], 'B-LOC': ['West'], 'I-LOC': ['Azerbaijan'], 'B-MISC': ['pan-Turkism']}",CONLL2003
+52,"# Entities
+- B-MISC
+
+# Text
+"" The temperature on the ground reached 62 decrees Celsius ( 143.60 Fahrenheit ) this summer .",{'B-MISC': ['Celsius']},CONLL2003
+53,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+NEW YORK 1996-08-23","{'B-LOC': ['NEW'], 'I-LOC': ['YORK']}",CONLL2003
+54,"# Entities
+
+
+# Text
+Police said a number of crew members had left the aircraft and said details would be given at a news conference expected to be held in the next few minutes by the local police chief .",{},CONLL2003
+55,"# Entities
+
+
+# Text
+If we have confidence , why should we be afraid of the other opinion ? """,{},CONLL2003
+56,"# Entities
+
+
+# Text
+OFFICIAL RESULTS OF THE OCTOBER 16 , 1994 GENERAL ELECTION :",{},CONLL2003
+57,"# Entities
+- B-MISC
+- B-LOC
+
+# Text
+Snoozing Vietnamese man takes slow train to Alaska .","{'B-MISC': ['Vietnamese'], 'B-LOC': ['Alaska']}",CONLL2003
+58,"# Entities
+- B-LOC
+
+# Text
+TIRANA 1996-08-27",{'B-LOC': ['TIRANA']},CONLL2003
+59,"# Entities
+- B-LOC
+- B-MISC
+
+# Text
+But these concerns were irrelevant , a Singapore trader said , despite a forecast that domestic Chinese copper demand could hit one million tonnes this year .","{'B-LOC': ['Singapore'], 'B-MISC': ['Chinese']}",CONLL2003
+60,"# Entities
+- B-MISC
+
+# Text
+SOCCER - MOROCCAN FIRST DIVISION RESULTS .",{'B-MISC': ['MOROCCAN']},CONLL2003
+61,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+* Conglomerate Bollore lost 2.4 percent to 521 francs after a morning trading suspension during which it said it had approved plans to buy out its 73.83 percent owned transport unit Scac Delmas Vileujeux ( SDV ) and invited shareholders to tender their shares .","{'B-ORG': ['Bollore', 'Scac', 'SDV'], 'I-ORG': ['Delmas', 'Vileujeux']}",CONLL2003
+62,"# Entities
+- B-LOC
+
+# Text
+PRESS DIGEST - Spain - Aug 29 .",{'B-LOC': ['Spain']},CONLL2003
+63,"# Entities
+
+
+# Text
+Baseball games played on Friday ( home team in CAPS ) :",{},CONLL2003
+64,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+NEW YORK 5,710.53 - 22.94 5,778.00 5,032.94","{'B-LOC': ['NEW'], 'I-LOC': ['YORK']}",CONLL2003
+65,"# Entities
+- B-PER
+
+# Text
+SOCCER - SPONSORS CASH IN ON RAVANELLI 'S SHIRT DANCE .",{'B-PER': ['RAVANELLI']},CONLL2003
+66,"# Entities
+- B-PER
+
+# Text
+"" Under the law before launching the strike we have to sign an agreement with our employer for a minimal transport servicing of emergency flights , "" Raichev said .",{'B-PER': ['Raichev']},CONLL2003
+67,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- B-MISC
+
+# Text
+The Catholic Information Office in Nairobi said on Monday that four of the six had been charged by the SPLA with spying , spreading Islam and hindering recruitment into the rebel group .","{'B-ORG': ['Catholic', 'SPLA'], 'I-ORG': ['Information', 'Office'], 'B-LOC': ['Nairobi'], 'B-MISC': ['Islam']}",CONLL2003
+68,"# Entities
+- B-LOC
+
+# Text
+TRIPOLI , Lebanon 1996-08-25","{'B-LOC': ['TRIPOLI', 'Lebanon']}",CONLL2003
+69,"# Entities
+- B-ORG
+
+# Text
+HOUSTON 70 61 .534 -",{'B-ORG': ['HOUSTON']},CONLL2003
+70,"# Entities
+- B-PER
+
+# Text
+3. Kocinski 254",{'B-PER': ['Kocinski']},CONLL2003
+71,"# Entities
+- B-MISC
+
+# Text
+Results of Russian premier league",{'B-MISC': ['Russian']},CONLL2003
+72,"# Entities
+
+
+# Text
+- Government wants to charge for prescriptions and some medical services",{},CONLL2003
+73,"# Entities
+- B-PER
+- B-LOC
+- I-LOC
+
+# Text
+Anwar , who struck a superb 176 at The Oval , was the more aggressive as he made 57 from 75 balls before skying a catch off Irani to Mullally at long-on .","{'B-PER': ['Anwar', 'Irani', 'Mullally'], 'B-LOC': ['The'], 'I-LOC': ['Oval']}",CONLL2003
+74,"# Entities
+- B-LOC
+
+# Text
+LONDON 1996-08-24",{'B-LOC': ['LONDON']},CONLL2003
+75,"# Entities
+- B-ORG
+- B-PER
+- I-PER
+
+# Text
+Essex secretary-general manager Peter Edwards said : "" He is a remarkable batsman and still the best in this country .","{'B-ORG': ['Essex'], 'B-PER': ['Peter'], 'I-PER': ['Edwards']}",CONLL2003
+76,"# Entities
+- B-LOC
+- I-LOC
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+In New York , Garret Anderson and Gary DiSarcina drove in two runs apiece in a five-run first inning and Jim Edmonds highlighted a six-run sixth with a bases-loaded double as the California Angels coasted to a 12-3 victory over the Yankees in the rubber game of their three-game series .","{'B-LOC': ['New'], 'I-LOC': ['York'], 'B-PER': ['Garret', 'Gary', 'Jim'], 'I-PER': ['Anderson', 'DiSarcina', 'Edmonds'], 'B-ORG': ['California', 'Yankees'], 'I-ORG': ['Angels']}",CONLL2003
+77,"# Entities
+
+
+# Text
+The unlisted bank earlier announced a 1996 interim net profit of 853 million guilders , up 21.5 percent on the 702 million guilders reported in the first half of 1995 .",{},CONLL2003
+78,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+
+# Text
+4. Heiko Szonn ( Germany ) 4:21.009","{'B-PER': ['Heiko'], 'I-PER': ['Szonn'], 'B-LOC': ['Germany']}",CONLL2003
+79,"# Entities
+- B-MISC
+
+# Text
+Results of German first division",{'B-MISC': ['German']},CONLL2003
+80,"# Entities
+- B-PER
+- I-PER
+
+# Text
+She 's fantastic , "" said Nikki Campbell , 28 , who went to the pageant . ""","{'B-PER': ['Nikki'], 'I-PER': ['Campbell']}",CONLL2003
+81,"# Entities
+- B-LOC
+
+# Text
+BONN 1996-08-22",{'B-LOC': ['BONN']},CONLL2003
+82,"# Entities
+
+
+# Text
+Attendance 10,760 .",{},CONLL2003
+83,"# Entities
+
+
+# Text
+--",{},CONLL2003
+84,"# Entities
+- B-PER
+- B-LOC
+- I-PER
+
+# Text
+Telfer , who has put on hold his role as Scotland team manager for a year , will act as assistant to Ian McGeechan .","{'B-PER': ['Telfer', 'Ian'], 'B-LOC': ['Scotland'], 'I-PER': ['McGeechan']}",CONLL2003
+85,"# Entities
+- B-ORG
+
+# Text
+The stake represented 0.042 percent of Gazprom 's capital .",{'B-ORG': ['Gazprom']},CONLL2003
+86,"# Entities
+
+
+# Text
+It will be sent for free .",{},CONLL2003
+87,"# Entities
+
+
+# Text
+Collective farms will last for the next few years , because most private farms now only produce enough to feed themselves with maybe a little extra to sell , said one private farmer : "" In the future , maybe , but it 's better not to hurry .",{},CONLL2003
+88,"# Entities
+- B-PER
+- B-MISC
+
+# Text
+Terence , a Tutsi , said any arms embargo would leave the army unable to defend itself against Hutu guerrillas and leave the population exposed to "" armed terroritsts . ""","{'B-PER': ['Terence'], 'B-MISC': ['Tutsi', 'Hutu']}",CONLL2003
+89,"# Entities
+- B-ORG
+
+# Text
+Rapeseed extraction was 3,850 rupees FOR Bedibunder and was 3,800-3,825 rupees FOR Bhavnagar .","{'B-ORG': ['Bedibunder', 'Bhavnagar']}",CONLL2003
+90,"# Entities
+- B-ORG
+
+# Text
+Auxerre 0 Marseille 0","{'B-ORG': ['Auxerre', 'Marseille']}",CONLL2003
+91,"# Entities
+- B-LOC
+- B-PER
+
+# Text
+"" Salvador is a small facility , and the prospects are that if there will be a strike , it will not be a long strike , "" O'Neill said .","{'B-LOC': ['Salvador'], 'B-PER': [""O'Neill""]}",CONLL2003
+92,"# Entities
+- B-PER
+- I-PER
+
+# Text
+"" They ( the insurgents ) should first give up their violent activities , "" Home ( Interior ) Minister Khum Bahadur Khadga said .","{'B-PER': ['Khum'], 'I-PER': ['Bahadur', 'Khadga']}",CONLL2003
+93,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+ATLANTIC HIGHLANDS , N.J. 1996-08-28","{'B-LOC': ['ATLANTIC', 'N.J.'], 'I-LOC': ['HIGHLANDS']}",CONLL2003
+94,"# Entities
+- B-MISC
+- I-MISC
+
+# Text
+GOLF - LEADING PRIZE MONEY WINNERS ON EUROPEAN TOUR .","{'B-MISC': ['EUROPEAN'], 'I-MISC': ['TOUR']}",CONLL2003
+95,"# Entities
+
+
+# Text
+Women 's singles",{},CONLL2003
+96,"# Entities
+
+
+# Text
+Dealers noted a seasonal pickup in meal demand .",{},CONLL2003
+97,"# Entities
+
+
+# Text
+Lumber closed $ 2.20 to $ 0.20 per tbf lower with September off $ 0.70 at $ 413.20 and November off most at $ 369.00 per tbf .",{},CONLL2003
+98,"# Entities
+- B-MISC
+
+# Text
+The Bosnian election is set for September 14 and voting began on Wednesday for most of the 600,000 Bosnians living abroad .","{'B-MISC': ['Bosnian', 'Bosnians']}",CONLL2003
+99,"# Entities
+
+
+# Text
+CBOT rice closes higher on technical bounce .",{},CONLL2003
+100,"# Entities
+- B-ORG
+- B-PER
+
+# Text
+OB 1 Lotte 1","{'B-ORG': ['OB'], 'B-PER': ['Lotte']}",CONLL2003
+101,"# Entities
+- B-LOC
+
+# Text
+Romania 's government is expected to revise the 1996 budget on Wednesday to bring it into line with higher inflation , new wage and pension indexations and costs of energy imports that have pushed up the state deficit .",{'B-LOC': ['Romania']},CONLL2003
+102,"# Entities
+- B-MISC
+
+# Text
+SOCCER - ENGLISH LEAGUE STANDINGS .",{'B-MISC': ['ENGLISH']},CONLL2003
+103,"# Entities
+
+
+# Text
+ingot 75 cents / pound",{},CONLL2003
+104,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+
+# Text
+1. Robert Kibet ( Kenya ) 1:45.24","{'B-PER': ['Robert'], 'I-PER': ['Kibet'], 'B-LOC': ['Kenya']}",CONLL2003
+105,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+St Pauli 3 1 1 1 7 7 4","{'B-ORG': ['St'], 'I-ORG': ['Pauli']}",CONLL2003
+106,"# Entities
+
+
+# Text
+division soccer match on Saturday :",{},CONLL2003
+107,"# Entities
+- B-ORG
+
+# Text
+Hyundai 8 Samsung 1","{'B-ORG': ['Hyundai', 'Samsung']}",CONLL2003
+108,"# Entities
+
+
+# Text
+Unknown - 161,600",{},CONLL2003
+109,"# Entities
+
+
+# Text
+The average selling price , $ 206,464 , was up 10.6 percent over July 1995 .",{},CONLL2003
+110,"# Entities
+- B-ORG
+
+# Text
+Emnid June 30 39.0 33.0 6.0 12.0 5.0",{'B-ORG': ['Emnid']},CONLL2003
+111,"# Entities
+- B-LOC
+
+# Text
+SHANGHAI 1996-08-23",{'B-LOC': ['SHANGHAI']},CONLL2003
+112,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+NABLUS , West Bank 1996-08-22","{'B-LOC': ['NABLUS', 'West'], 'I-LOC': ['Bank']}",CONLL2003
+113,"# Entities
+- B-MISC
+- I-MISC
+
+# Text
+National League","{'B-MISC': ['National'], 'I-MISC': ['League']}",CONLL2003
+114,"# Entities
+
+
+# Text
+The two were held for 71 days until relatives paid a ransom .",{},CONLL2003
+115,"# Entities
+
+
+# Text
+Some of these sales may not be final as they may be subject to inspection , survey or other conditions .",{},CONLL2003
+116,"# Entities
+- B-LOC
+
+# Text
+India has often accused Pakistan of abetting militancy in the valley , a charge Islamabad has always denied .","{'B-LOC': ['India', 'Pakistan', 'Islamabad']}",CONLL2003
+117,"# Entities
+- B-ORG
+
+# Text
+Molenbeek 4 1 2 1 4 5 5",{'B-ORG': ['Molenbeek']},CONLL2003
+118,"# Entities
+- B-PER
+- I-PER
+- B-MISC
+- I-MISC
+
+# Text
+He shared victory with Matthew Pinsent in the coxless pairs at the Atlanta Games and said at the time that would be his last shot .","{'B-PER': ['Matthew'], 'I-PER': ['Pinsent'], 'B-MISC': ['Atlanta'], 'I-MISC': ['Games']}",CONLL2003
+119,"# Entities
+
+
+# Text
+For Sept 20 - Oct 10 : 19,500 of DNS at $ 212.25 , 10,000 of HRW at $ 204.74 , 4,500 of WW at $ 199.71 .",{},CONLL2003
+120,"# Entities
+- B-PER
+- I-PER
+
+# Text
+A. Jadeja run out 0","{'B-PER': ['A.'], 'I-PER': ['Jadeja']}",CONLL2003
+121,"# Entities
+
+
+# Text
+"" If he left , the first question people would ask the next guy is , ' What 's your view on the dollar ? '",{},CONLL2003
+122,"# Entities
+
+
+# Text
+matches played on Saturday :",{},CONLL2003
+123,"# Entities
+- B-ORG
+- I-ORG
+- B-PER
+- B-MISC
+
+# Text
+In a filing with the Securities and Exchnage Commission , Buffett said he bought 62,900 additional common shares of the Boston-based real estate investment trust at prices ranging from $ 7.65 to $ 8.02 a share .","{'B-ORG': ['Securities'], 'I-ORG': ['and', 'Exchnage', 'Commission'], 'B-PER': ['Buffett'], 'B-MISC': ['Boston-based']}",CONLL2003
+124,"# Entities
+- B-PER
+- B-MISC
+- I-PER
+
+# Text
+Clinton will hit the road on Friday for a bus tour across several states in his fight to become the first Democratic incumbent re-elected to a second term since the days of Franklin D. Roosevelt .","{'B-PER': ['Clinton', 'Franklin'], 'B-MISC': ['Democratic'], 'I-PER': ['D.', 'Roosevelt']}",CONLL2003
+125,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+, Aa3 / VMIG-1 - Moody 's .","{'B-ORG': ['Moody'], 'I-ORG': [""'s""]}",CONLL2003
+126,"# Entities
+- B-PER
+- I-PER
+
+# Text
+118 , A. Cottey 70 ) .","{'B-PER': ['A.'], 'I-PER': ['Cottey']}",CONLL2003
+127,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+
+# Text
+4. Torrance Zellner ( U.S. ) 49.06","{'B-PER': ['Torrance'], 'I-PER': ['Zellner'], 'B-LOC': ['U.S.']}",CONLL2003
+128,"# Entities
+- B-LOC
+
+# Text
+Slovenia 's trade with Poland rose to $ 142.3 million in 1995 from $ 118.8 million in 1994 .","{'B-LOC': ['Slovenia', 'Poland']}",CONLL2003
+129,"# Entities
+- B-LOC
+- B-MISC
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+Organisers hope to persuade Britain 's former Olympic 100 metres champion Linford Christie to join a "" Dream Team "" sprint relay in a special tribute to Jesse Owens at Friday 's Berlin grand prix .","{'B-LOC': ['Britain', 'Berlin'], 'B-MISC': ['Olympic'], 'B-PER': ['Linford', 'Jesse'], 'I-PER': ['Christie', 'Owens'], 'B-ORG': ['Dream'], 'I-ORG': ['Team']}",CONLL2003
+130,"# Entities
+- B-MISC
+- B-PER
+
+# Text
+He said they had made various requests to police negotiators but stepped back from earlier suggestions that the hijackers had asked to speak to a British-based Iraqi police named as Mr Sadiki .","{'B-MISC': ['British-based', 'Iraqi'], 'B-PER': ['Sadiki']}",CONLL2003
+131,"# Entities
+- B-PER
+
+# Text
+2. Corser 270",{'B-PER': ['Corser']},CONLL2003
+132,"# Entities
+
+
+# Text
+division soccer match on Sunday :",{},CONLL2003
+133,"# Entities
+- B-ORG
+- B-LOC
+
+# Text
+SOCCER - DISAPPOINTING AJAX SLUMP 2-0 AT HEERENVEEN .","{'B-ORG': ['AJAX'], 'B-LOC': ['HEERENVEEN']}",CONLL2003
+134,"# Entities
+- B-ORG
+
+# Text
+BOSTON 66 65 .504 9",{'B-ORG': ['BOSTON']},CONLL2003
+135,"# Entities
+- B-MISC
+- I-MISC
+
+# Text
+TENNIS - RESULTS AT CANADIAN OPEN .","{'B-MISC': ['CANADIAN'], 'I-MISC': ['OPEN']}",CONLL2003
+136,"# Entities
+- B-PER
+
+# Text
+3. Bartoli 108",{'B-PER': ['Bartoli']},CONLL2003
+137,"# Entities
+- B-MISC
+- B-LOC
+- I-LOC
+
+# Text
+"" We do n't have any connection with the Palestinians , they live over there , "" he said , pointing to the West Bank seven km ( four miles ) to the east .","{'B-MISC': ['Palestinians'], 'B-LOC': ['West'], 'I-LOC': ['Bank']}",CONLL2003
+138,"# Entities
+- B-LOC
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+In Boston , Troy O'Leary homered off the right-field foul pole with one out in the bottom of the ninth and the Red Sox climbed to the .500 mark for the first time this season with their fourth straight victory , 2-1 over the Oakland Athletics .","{'B-LOC': ['Boston'], 'B-PER': ['Troy'], 'I-PER': [""O'Leary""], 'B-ORG': ['Red', 'Oakland'], 'I-ORG': ['Sox', 'Athletics']}",CONLL2003
+139,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Cruz Azul 3 2 1 0 7 3 7","{'B-ORG': ['Cruz'], 'I-ORG': ['Azul']}",CONLL2003
+140,"# Entities
+
+
+# Text
+Very sexy . """,{},CONLL2003
+141,"# Entities
+- B-ORG
+- B-PER
+
+# Text
+CNN quoted aides and family members as saying Lamm , who competed with Perot to head the ticket for Perot 's party , had told them he would definitely not endorse Perot , but they did not know whether he would endorse another candidate .","{'B-ORG': ['CNN'], 'B-PER': ['Lamm', 'Perot', 'Perot', 'Perot']}",CONLL2003
+142,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Boby Brno 1 Sigma Olomouc 0","{'B-ORG': ['Boby', 'Sigma'], 'I-ORG': ['Brno', 'Olomouc']}",CONLL2003
+143,"# Entities
+- B-PER
+- B-MISC
+
+# Text
+Raichev said a lock-out with military air controllers was impossible as they did not speak English .","{'B-PER': ['Raichev'], 'B-MISC': ['English']}",CONLL2003
+144,"# Entities
+- B-PER
+- I-PER
+
+# Text
+282 Corey Pavin 73 70 70 69","{'B-PER': ['Corey'], 'I-PER': ['Pavin']}",CONLL2003
+145,"# Entities
+
+
+# Text
+won , drawn , lost , goals for , goals against , points ) :",{},CONLL2003
+146,"# Entities
+- B-LOC
+
+# Text
+29. Macedonia 8.07",{'B-LOC': ['Macedonia']},CONLL2003
+147,"# Entities
+
+
+# Text
+"" It 's very difficult to predict the market ( trend ) this year .",{},CONLL2003
+148,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Chornomorets Odessa 2 Metalurg Zaporizhya 1","{'B-ORG': ['Chornomorets', 'Metalurg'], 'I-ORG': ['Odessa', 'Zaporizhya']}",CONLL2003
+149,"# Entities
+- B-ORG
+- B-MISC
+- I-MISC
+
+# Text
+The ruling meant that serie B club Genoa now meet local serie A arch-rivals Sampdoria in the second round .","{'B-ORG': ['Genoa', 'Sampdoria'], 'B-MISC': ['serie'], 'I-MISC': ['A']}",CONLL2003
+150,"# Entities
+- B-PER
+- B-MISC
+
+# Text
+Lebed aide says Russian-Chechen talks going well .","{'B-PER': ['Lebed'], 'B-MISC': ['Russian-Chechen']}",CONLL2003
+151,"# Entities
+- B-ORG
+
+# Text
+Suwon 4 Pusan 0 ( halftime 2-0 )","{'B-ORG': ['Suwon', 'Pusan']}",CONLL2003
+152,"# Entities
+- B-LOC
+
+# Text
+Russia and Norway share the island 's resources under a treaty dating back to the 1920s .","{'B-LOC': ['Russia', 'Norway']}",CONLL2003
+153,"# Entities
+- B-ORG
+
+# Text
+Ipswich 1 Grimsby 1","{'B-ORG': ['Ipswich', 'Grimsby']}",CONLL2003
+154,"# Entities
+
+
+# Text
+She died in hospital .",{},CONLL2003
+155,"# Entities
+- B-MISC
+- I-MISC
+
+# Text
+PRESS DIGEST - Sri Lankan Newspapers - August 27 .","{'B-MISC': ['Sri'], 'I-MISC': ['Lankan']}",CONLL2003
+156,"# Entities
+
+
+# Text
+Women 's singles , second round",{},CONLL2003
+157,"# Entities
+- B-LOC
+
+# Text
+Scores : England 326 and 242 ; Pakistan 521-8 declared and 48-1 .","{'B-LOC': ['England', 'Pakistan']}",CONLL2003
+158,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+NEW YORK 59 69 .461 21 1/2","{'B-ORG': ['NEW'], 'I-ORG': ['YORK']}",CONLL2003
+159,"# Entities
+- B-ORG
+
+# Text
+Sunderland 3 1 2 0 4 1 5",{'B-ORG': ['Sunderland']},CONLL2003
+160,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Bill Berkrot","{'B-PER': ['Bill'], 'I-PER': ['Berkrot']}",CONLL2003
+161,"# Entities
+- B-MISC
+- I-MISC
+
+# Text
+Results from the Canadian Open","{'B-MISC': ['Canadian'], 'I-MISC': ['Open']}",CONLL2003
+162,"# Entities
+
+
+# Text
+Investigators are probing several other cases .",{},CONLL2003
+163,"# Entities
+- B-MISC
+
+# Text
+Result of a French first division",{'B-MISC': ['French']},CONLL2003
+164,"# Entities
+- B-LOC
+- B-PER
+- I-PER
+- B-MISC
+
+# Text
+Kabul is controlled by President Burhanuddin Rabbani 's government , which Taleban is fighting to overthrow .","{'B-LOC': ['Kabul'], 'B-PER': ['Burhanuddin'], 'I-PER': ['Rabbani'], 'B-MISC': ['Taleban']}",CONLL2003
+165,"# Entities
+- B-ORG
+- B-LOC
+
+# Text
+MILWAUKEE AT CLEVELAND","{'B-ORG': ['MILWAUKEE'], 'B-LOC': ['CLEVELAND']}",CONLL2003
+166,"# Entities
+- B-LOC
+
+# Text
+ATLANTA 1996-08-25",{'B-LOC': ['ATLANTA']},CONLL2003
+167,"# Entities
+- B-MISC
+- B-ORG
+
+# Text
+The flamboyant American star was bumped up two spots from his ATP ranking of eight to a seeding of six .","{'B-MISC': ['American'], 'B-ORG': ['ATP']}",CONLL2003
+168,"# Entities
+
+
+# Text
+The rules will also require that customer limit orders be displayed with prices better than those available in quotes publicly available at the time .",{},CONLL2003
+169,"# Entities
+- B-LOC
+
+# Text
+LONDON 1996-08-28",{'B-LOC': ['LONDON']},CONLL2003
+170,"# Entities
+- B-MISC
+- I-MISC
+- B-LOC
+- I-LOC
+- B-ORG
+
+# Text
+The American League Western leaders have won eight of 15 games at Jacobs Field , joining the Yankees as the only teams with a winning record at the A.L. Central leaders ' home .","{'B-MISC': ['American', 'A.L.'], 'I-MISC': ['League', 'Western', 'Central'], 'B-LOC': ['Jacobs'], 'I-LOC': ['Field'], 'B-ORG': ['Yankees']}",CONLL2003
+171,"# Entities
+- B-MISC
+
+# Text
+German farm ministry tells consumers to avoid British mutton .","{'B-MISC': ['German', 'British']}",CONLL2003
+172,"# Entities
+- B-ORG
+- B-LOC
+
+# Text
+PITTSBURGH AT HOUSTON","{'B-ORG': ['PITTSBURGH'], 'B-LOC': ['HOUSTON']}",CONLL2003
+173,"# Entities
+- B-ORG
+
+# Text
+BABEL",{'B-ORG': ['BABEL']},CONLL2003
+174,"# Entities
+- B-ORG
+
+# Text
+Faulding target of patent lawsuit .",{'B-ORG': ['Faulding']},CONLL2003
+175,"# Entities
+
+
+# Text
+Halftime 1-0 .",{},CONLL2003
+176,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+SAN FRANCISCO 55 73 .430 15","{'B-ORG': ['SAN'], 'I-ORG': ['FRANCISCO']}",CONLL2003
+177,"# Entities
+- B-ORG
+
+# Text
+Cruzeiro 2 Vitoria 1","{'B-ORG': ['Cruzeiro', 'Vitoria']}",CONLL2003
+178,"# Entities
+- B-LOC
+
+# Text
+"" But I 'll be 38 by Sydney and that 's not too old .",{'B-LOC': ['Sydney']},CONLL2003
+179,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+Saskatchewan Pork International Marketing Group has an export monopoly but some Saskatchewan farmers earlier this month called for an open market in hogs .","{'B-ORG': ['Saskatchewan'], 'I-ORG': ['Pork', 'International', 'Marketing', 'Group'], 'B-LOC': ['Saskatchewan']}",CONLL2003
+180,"# Entities
+
+
+# Text
+The August contract expired at 0.85 cent down at 90.85 cents .",{},CONLL2003
+181,"# Entities
+- B-ORG
+
+# Text
+Mosenergo closed at at $ 0.958 after $ 0.966 , Rostelekom fell to $ 2.56 from $ 2.58 and LUKoil was $ 9.82 after $ 9.85 .","{'B-ORG': ['Mosenergo', 'Rostelekom', 'LUKoil']}",CONLL2003
+182,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Standard Liege 4 3 0 1 7 3 9","{'B-ORG': ['Standard'], 'I-ORG': ['Liege']}",CONLL2003
+183,"# Entities
+- B-LOC
+
+# Text
+The hijackers , who have said they want to seek asylum in Britain , are believed to be armed with grenades and possibly other explosives , according to police .",{'B-LOC': ['Britain']},CONLL2003
+184,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+The Chicago Board Options Exchange ( CBOE ) said on Tuesday it was doing a routine investigation into trading in options on MFS Communications Co Inc shares .","{'B-ORG': ['Chicago', 'CBOE', 'MFS'], 'I-ORG': ['Board', 'Options', 'Exchange', 'Communications', 'Co', 'Inc']}",CONLL2003
+185,"# Entities
+
+
+# Text
+3-6 6-3 6-0 .",{},CONLL2003
+186,"# Entities
+- B-LOC
+
+# Text
+BELGRADE 1996-08-24",{'B-LOC': ['BELGRADE']},CONLL2003
+187,"# Entities
+- B-MISC
+
+# Text
+Many party members are practitioners of TM , which involves meditating to a repeated word or phrase , called a mantra .",{'B-MISC': ['TM']},CONLL2003
+188,"# Entities
+- B-MISC
+
+# Text
+Result of the 1,000","{'B-MISC': ['1,000']}",CONLL2003
+189,"# Entities
+- B-MISC
+
+# Text
+Russian serial killer strikes again .",{'B-MISC': ['Russian']},CONLL2003
+190,"# Entities
+
+
+# Text
+"" Disperse , abstain from forming groups and help maintain order , "" army officers , who has enforced a loose curfew since the riots , told the crowd through loudspeakers .",{},CONLL2003
+191,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+-- Chicago Newsdesk 312-408-8787","{'B-ORG': ['Chicago'], 'I-ORG': ['Newsdesk']}",CONLL2003
+192,"# Entities
+- B-MISC
+- B-LOC
+
+# Text
+The Eco-Challenge has been staged twice before -- in Utah and Maine last year -- and is modelled on similar races overseas .","{'B-MISC': ['Eco-Challenge'], 'B-LOC': ['Utah', 'Maine']}",CONLL2003
+193,"# Entities
+- B-PER
+- I-PER
+
+# Text
+N. Knight c Moin Khan b Wasim Akram 26","{'B-PER': ['N.', 'Moin', 'Wasim'], 'I-PER': ['Knight', 'Khan', 'Akram']}",CONLL2003
+194,"# Entities
+- B-MISC
+- B-ORG
+- I-ORG
+
+# Text
+NOTE - Full name of the state-owned German railway company is Deutsche Bahn AG .","{'B-MISC': ['German'], 'B-ORG': ['Deutsche'], 'I-ORG': ['Bahn', 'AG']}",CONLL2003
+195,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Lech Poznan 7 5 0 2 12 9 15","{'B-ORG': ['Lech'], 'I-ORG': ['Poznan']}",CONLL2003
+196,"# Entities
+- B-ORG
+- I-ORG
+- B-PER
+
+# Text
+NAC Breda 1 ( Abdellaoui 20th penalty ) NEC Nijmegen 1 ( Graef 36th ) .","{'B-ORG': ['NAC', 'NEC'], 'I-ORG': ['Breda', 'Nijmegen'], 'B-PER': ['Abdellaoui', 'Graef']}",CONLL2003
+197,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+
+# Text
+8. Ann Mercken ( Belgium ) 53.55","{'B-PER': ['Ann'], 'I-PER': ['Mercken'], 'B-LOC': ['Belgium']}",CONLL2003
+198,"# Entities
+- B-ORG
+
+# Text
+Hamburg 4 2 0 2 7 7 6",{'B-ORG': ['Hamburg']},CONLL2003
+199,"# Entities
+- B-PER
+- I-PER
+- B-LOC
+
+# Text
+1. Mariacarla Bresciani ( Italy ) 3.85 metres","{'B-PER': ['Mariacarla'], 'I-PER': ['Bresciani'], 'B-LOC': ['Italy']}",CONLL2003
+200,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+The following floating-rate issue was announced by lead manager Lehman Brothers International .","{'B-ORG': ['Lehman'], 'I-ORG': ['Brothers', 'International']}",CONLL2003
+201,"# Entities
+- B-PER
+- I-PER
+
+# Text
+'' January 21 '' – Nanny and the Professor","{'B-PER': ['Nanny'], 'I-PER': ['and', 'the', 'Professor']}",WIKIANN
+202,"# Entities
+- B-LOC
+
+# Text
+Markovićevo ( Torontálújfalu )",{'B-LOC': ['Markovićevo']},WIKIANN
+203,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Media of China","{'B-ORG': ['Media'], 'I-ORG': ['of', 'China']}",WIKIANN
+204,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Dennis Carroll ( , 1981-1991 )","{'B-PER': ['Dennis'], 'I-PER': ['Carroll']}",WIKIANN
+205,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+533 : Personal Communications Services","{'B-ORG': ['533', 'Personal'], 'I-ORG': ['Communications', 'Services']}",WIKIANN
+206,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Several successful West End roles followed .","{'B-LOC': ['West'], 'I-LOC': ['End']}",WIKIANN
+207,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Pope Celestine V","{'B-PER': ['Pope'], 'I-PER': ['Celestine', 'V']}",WIKIANN
+208,"# Entities
+- B-LOC
+
+# Text
+Bohórquez]] was executed and displayed in Lima .",{'B-LOC': ['Lima']},WIKIANN
+209,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+AirAsia Flying Spikers ( PSL , 2014 )","{'B-ORG': ['AirAsia', 'PSL'], 'I-ORG': ['Flying', 'Spikers'], 'B-LOC': ['2014']}",WIKIANN
+210,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Long Harbour-Mount Arlington Heights","{'B-LOC': ['Long'], 'I-LOC': ['Harbour-Mount', 'Arlington', 'Heights']}",WIKIANN
+211,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- I-LOC
+
+# Text
+Davidson College ( Davidson , North Carolina )","{'B-ORG': ['Davidson'], 'I-ORG': ['College'], 'B-LOC': ['Davidson'], 'I-LOC': [',', 'North', 'Carolina']}",WIKIANN
+212,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+During August 2012 , only parts of South America and Northern Australia experienced temperatures that were cooler than usual .","{'B-LOC': ['South', 'Northern'], 'I-LOC': ['America', 'Australia']}",WIKIANN
+213,"# Entities
+- B-LOC
+
+# Text
+''Akko '' ( עַכּוֹ ) : Acre",{'B-LOC': ['Acre']},WIKIANN
+214,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Claudette Colbert , Robert Ryan","{'B-PER': ['Claudette', 'Robert'], 'I-PER': ['Colbert', 'Ryan']}",WIKIANN
+215,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+It is operated by the Richmond Shire Council .","{'B-LOC': ['Richmond'], 'I-LOC': ['Shire', 'Council']}",WIKIANN
+216,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+IEEE Intelligent Transportation Systems Society","{'B-ORG': ['IEEE'], 'I-ORG': ['Intelligent', 'Transportation', 'Systems', 'Society']}",WIKIANN
+217,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+1998 : PJ Harvey – Is This Desire '' ( Producer )","{'B-PER': ['PJ'], 'I-PER': ['Harvey'], 'B-ORG': ['Is'], 'I-ORG': ['This', 'Desire']}",WIKIANN
+218,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Ili Kazakh Autonomous Prefecture","{'B-LOC': ['Ili'], 'I-LOC': ['Kazakh', 'Autonomous', 'Prefecture']}",WIKIANN
+219,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+It also borders the Czech Republic .","{'B-LOC': ['Czech'], 'I-LOC': ['Republic']}",WIKIANN
+220,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Buff Island ( Antarctica )","{'B-LOC': ['Buff'], 'I-LOC': ['Island', '(', 'Antarctica', ')']}",WIKIANN
+221,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Antonio Bazzini ( 1818–1897 )","{'B-PER': ['Antonio'], 'I-PER': ['Bazzini']}",WIKIANN
+222,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Richard Rodgers / Oscar Hammerstein II","{'B-PER': ['Richard', 'Oscar'], 'I-PER': ['Rodgers', 'Hammerstein', 'II']}",WIKIANN
+223,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+; Solano County – ''7.3 % ''","{'B-LOC': ['Solano'], 'I-LOC': ['County']}",WIKIANN
+224,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Tennie Rogers – 12 ( 0.00 % )","{'B-PER': ['Tennie'], 'I-PER': ['Rogers']}",WIKIANN
+225,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Historical Monuments at Makli , Thatta","{'B-ORG': ['Historical'], 'I-ORG': ['Monuments', 'at', 'Makli', ',', 'Thatta']}",WIKIANN
+226,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Continente ( Supermarket )","{'B-ORG': ['Continente'], 'I-ORG': ['(', 'Supermarket', ')']}",WIKIANN
+227,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Borja , Zaragoza","{'B-LOC': ['Borja'], 'I-LOC': [',', 'Zaragoza']}",WIKIANN
+228,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Dods ( Group ) PLC","{'B-ORG': ['Dods'], 'I-ORG': ['(', 'Group', ')', 'PLC']}",WIKIANN
+229,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+2007 : CineMAA Award for Best Music Director – ''Happy Days ''","{'B-ORG': ['CineMAA'], 'I-ORG': ['Award', 'for', 'Best', 'Music', 'Director']}",WIKIANN
+230,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Beringen , Belgium","{'B-LOC': ['Beringen'], 'I-LOC': [',', 'Belgium']}",WIKIANN
+231,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- I-LOC
+
+# Text
+Westward Islet , in the Pitcairn Islands","{'B-ORG': ['Westward'], 'I-ORG': ['Islet'], 'B-LOC': ['Pitcairn'], 'I-LOC': ['Islands']}",WIKIANN
+232,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+1024 1024 Bank of Greece","{'B-ORG': ['Bank'], 'I-ORG': ['of', 'Greece']}",WIKIANN
+233,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+It is on the Campaign for Real Ale 's National Inventory of Historic Pub Interiors .","{'B-ORG': ['Campaign', 'National'], 'I-ORG': ['for', 'Real', 'Ale', 'Inventory', 'of', 'Historic', 'Pub', 'Interiors']}",WIKIANN
+234,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Mount Olive , Virginia","{'B-LOC': ['Mount'], 'I-LOC': ['Olive', ',', 'Virginia']}",WIKIANN
+235,"# Entities
+- B-PER
+- I-PER
+
+# Text
+1982-1989 : Ramón Búa Otero","{'B-PER': ['Ramón'], 'I-PER': ['Búa', 'Otero']}",WIKIANN
+236,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Sir Joseph ( later Lord ) Lister , Consulting-Surgeon , 1891–1912","{'B-PER': ['Sir'], 'I-PER': ['Joseph', '(', 'later', 'Lord', ')', 'Lister']}",WIKIANN
+237,"# Entities
+- B-PER
+- I-PER
+
+# Text
+John III Sobieski","{'B-PER': ['John'], 'I-PER': ['III', 'Sobieski']}",WIKIANN
+238,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+Easter Road , Edinburgh , Scotland","{'B-ORG': ['Easter'], 'I-ORG': ['Road'], 'B-LOC': ['Edinburgh', 'Scotland']}",WIKIANN
+239,"# Entities
+- B-LOC
+- I-LOC
+- B-ORG
+- I-ORG
+
+# Text
+Los Angeles To Washington D.C .","{'B-LOC': ['Los'], 'I-LOC': ['Angeles'], 'B-ORG': ['Washington'], 'I-ORG': ['D.C', '.']}",WIKIANN
+240,"# Entities
+- B-PER
+- I-PER
+
+# Text
+*Oberstleutnant Paul-Werner Hozzel , 25 December 1944 – 16 April 1945","{'B-PER': ['Paul-Werner'], 'I-PER': ['Hozzel']}",WIKIANN
+241,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Electorate of Württemberg","{'B-LOC': ['Electorate'], 'I-LOC': ['of', 'Württemberg']}",WIKIANN
+242,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Persons Unknown '' ( 2010 )","{'B-ORG': ['Persons'], 'I-ORG': ['Unknown']}",WIKIANN
+243,"# Entities
+- B-PER
+- I-PER
+
+# Text
+' '' With Dave Douglas '' '","{'B-PER': ['Dave'], 'I-PER': ['Douglas']}",WIKIANN
+244,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+München Süd station","{'B-ORG': ['München'], 'I-ORG': ['Süd', 'station']}",WIKIANN
+245,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Live at the Fillmore 1968","{'B-ORG': ['Live'], 'I-ORG': ['at', 'the', 'Fillmore', '1968']}",WIKIANN
+246,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+' '' Persiaran APEC '' '","{'B-ORG': ['Persiaran'], 'I-ORG': ['APEC']}",WIKIANN
+247,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+Erik Engstrom , CEO of Reed Elsevier","{'B-PER': ['Erik'], 'I-PER': ['Engstrom'], 'B-ORG': ['Reed'], 'I-ORG': ['Elsevier']}",WIKIANN
+248,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Chancellor of the Duchy of Lancaster : Lord Woolton :","{'B-PER': ['Chancellor', 'Lord'], 'I-PER': ['of', 'the', 'Duchy', 'of', 'Lancaster', 'Woolton']}",WIKIANN
+249,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Te Henga ( Bethells Beach )","{'B-LOC': ['Te'], 'I-LOC': ['Henga', '(', 'Bethells', 'Beach', ')']}",WIKIANN
+250,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+' '' 2nd Battalion 14th Marines '' '","{'B-ORG': ['2nd'], 'I-ORG': ['Battalion', '14th', 'Marines']}",WIKIANN
+251,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Columbia , South Carolina","{'B-LOC': ['Columbia'], 'I-LOC': [',', 'South', 'Carolina']}",WIKIANN
+252,"# Entities
+- B-LOC
+
+# Text
+It is found in Peru .",{'B-LOC': ['Peru']},WIKIANN
+253,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Typhlomangelia adenica '' Sysoev , 1996","{'B-LOC': ['Typhlomangelia'], 'I-LOC': ['adenica']}",WIKIANN
+254,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+*8404.1 - Rivula pusilla ''","{'B-LOC': ['Rivula'], 'I-LOC': ['pusilla']}",WIKIANN
+255,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Workin ' with The Miles Davis Quintet '' ( 1956 )","{'B-ORG': ['Workin'], 'I-ORG': [""'"", 'with', 'The', 'Miles', 'Davis', 'Quintet']}",WIKIANN
+256,"# Entities
+- B-PER
+- I-PER
+
+# Text
+' '' Vlade Divac '' '","{'B-PER': ['Vlade'], 'I-PER': ['Divac']}",WIKIANN
+257,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+List of tornadoes striking downtown areas","{'B-ORG': ['List'], 'I-ORG': ['of', 'tornadoes', 'striking', 'downtown', 'areas']}",WIKIANN
+258,"# Entities
+- B-LOC
+- I-LOC
+- B-PER
+- I-PER
+
+# Text
+'' Tsardom of Russia '' ' – Feodor III ( 1676–1682 )","{'B-LOC': ['Tsardom'], 'I-LOC': ['of', 'Russia'], 'B-PER': ['Feodor'], 'I-PER': ['III']}",WIKIANN
+259,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Hertha BSC Berlin ( 5 )","{'B-ORG': ['Hertha'], 'I-ORG': ['BSC', 'Berlin']}",WIKIANN
+260,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+'' Charaxes ameliae ''","{'B-LOC': ['Charaxes'], 'I-LOC': ['ameliae']}",WIKIANN
+261,"# Entities
+- B-ORG
+
+# Text
+He was a founding member of the band Yello .",{'B-ORG': ['Yello']},WIKIANN
+262,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Eichberg , Switzerland","{'B-LOC': ['Eichberg'], 'I-LOC': [',', 'Switzerland']}",WIKIANN
+263,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+The album 's lead single , `` This is the Time ( Ballast ) '' was released on March 11 , 2014 .","{'B-ORG': ['This'], 'I-ORG': ['is', 'the', 'Time', '(', 'Ballast', ')']}",WIKIANN
+264,"# Entities
+- B-ORG
+
+# Text
+CircuitSAT has been proven to be NP-complete .",{'B-ORG': ['NP-complete']},WIKIANN
+265,"# Entities
+- B-PER
+- I-PER
+
+# Text
+However , if it is assumed that this grouping was published between 1598 and 1600 , a publication by Francis Meres comes into play .","{'B-PER': ['Francis'], 'I-PER': ['Meres']}",WIKIANN
+266,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Berthold II , Duke of Swabia","{'B-PER': ['Berthold'], 'I-PER': ['II', ',', 'Duke', 'of', 'Swabia']}",WIKIANN
+267,"# Entities
+- B-ORG
+- I-ORG
+- B-PER
+- I-PER
+
+# Text
+Yo amo a Juan Querendón '' ( starring Mayrín Villanueva and Eduardo Santamarina ) ( October 12 , 2015 – present )","{'B-ORG': ['Yo'], 'I-ORG': ['amo', 'a', 'Juan', 'Querendón'], 'B-PER': ['Mayrín', 'Eduardo'], 'I-PER': ['Villanueva', 'Santamarina']}",WIKIANN
+268,"# Entities
+- B-ORG
+- I-ORG
+- B-PER
+- I-PER
+
+# Text
+** '' Kingdom of Gwent '' ' – Edwyn ap Gwriad ( 1015–1045 )","{'B-ORG': ['Kingdom'], 'I-ORG': ['of', 'Gwent'], 'B-PER': ['Edwyn'], 'I-PER': ['ap', 'Gwriad']}",WIKIANN
+269,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+The second edition of World Outgames started in Copenhagen on 25 July and ended on 2 August 2009 .","{'B-ORG': ['second'], 'I-ORG': ['edition', 'of', 'World', 'Outgames'], 'B-LOC': ['Copenhagen']}",WIKIANN
+270,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+École des hautes études en santé publique ( EHESP )","{'B-ORG': ['École'], 'I-ORG': ['des', 'hautes', 'études', 'en', 'santé', 'publique']}",WIKIANN
+271,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Islamic State of Iraq","{'B-ORG': ['Islamic'], 'I-ORG': ['State', 'of', 'Iraq']}",WIKIANN
+272,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Medium format ( film )","{'B-PER': ['Medium'], 'I-PER': ['format', '(', 'film', ')']}",WIKIANN
+273,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Leventochori , Elis","{'B-LOC': ['Leventochori'], 'I-LOC': [',', 'Elis']}",WIKIANN
+274,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Communes of the Seine-Maritime department","{'B-LOC': ['Communes'], 'I-LOC': ['of', 'the', 'Seine-Maritime', 'department']}",WIKIANN
+275,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Port Elizabeth , South Africa","{'B-LOC': ['Port', 'South'], 'I-LOC': ['Elizabeth', 'Africa']}",WIKIANN
+276,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Anahim Lake - 96.1 MHz","{'B-LOC': ['Anahim'], 'I-LOC': ['Lake']}",WIKIANN
+277,"# Entities
+- B-LOC
+
+# Text
+The portfolio consisted of five stores , located in Redwood , Belfast , Opawa , Ferrymead and Hornby .","{'B-LOC': ['Redwood', 'Belfast', 'Opawa', 'Ferrymead', 'Hornby']}",WIKIANN
+278,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+It looks on to Mormond Hill .","{'B-LOC': ['Mormond'], 'I-LOC': ['Hill']}",WIKIANN
+279,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- I-LOC
+
+# Text
+Myrtle Beach , United States","{'B-ORG': ['Myrtle'], 'I-ORG': ['Beach'], 'B-LOC': ['United'], 'I-LOC': ['States']}",WIKIANN
+280,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+N67 road ( Ireland )","{'B-ORG': ['N67'], 'I-ORG': ['road', '(', 'Ireland', ')']}",WIKIANN
+281,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+April 17 - Matawan , New Jersey","{'B-LOC': ['Matawan'], 'I-LOC': [',', 'New', 'Jersey']}",WIKIANN
+282,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+He was educated at St. Ronan 's School , Hawkhurst , Winchester College and Magdalen College , Oxford , graduating in 1952 .","{'B-ORG': ['St.', 'Winchester', 'Magdalen'], 'I-ORG': ['Ronan', ""'s"", 'School', 'College', 'College', ',', 'Oxford'], 'B-LOC': ['Hawkhurst']}",WIKIANN
+283,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Jeff Fassero ( 1–3 )","{'B-PER': ['Jeff'], 'I-PER': ['Fassero']}",WIKIANN
+284,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Communes of the Eure department","{'B-LOC': ['Communes'], 'I-LOC': ['of', 'the', 'Eure', 'department']}",WIKIANN
+285,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Comparison of the AK-47 and M16","{'B-LOC': ['Comparison'], 'I-LOC': ['of', 'the', 'AK-47', 'and', 'M16']}",WIKIANN
+286,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Bob Boozer ( 28 )","{'B-PER': ['Bob'], 'I-PER': ['Boozer']}",WIKIANN
+287,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+'' Udea accolalis '' ( Zeller , 1867 )","{'B-LOC': ['Udea'], 'I-LOC': ['accolalis']}",WIKIANN
+288,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+List of lakes in Norway","{'B-ORG': ['List'], 'I-ORG': ['of', 'lakes', 'in', 'Norway']}",WIKIANN
+289,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Electoral district of Macquarie","{'B-LOC': ['Electoral'], 'I-LOC': ['district', 'of', 'Macquarie']}",WIKIANN
+290,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Harriet Tubman , commemorated on March 10","{'B-PER': ['Harriet'], 'I-PER': ['Tubman']}",WIKIANN
+291,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Wale ( rapper )","{'B-PER': ['Wale'], 'I-PER': ['(', 'rapper', ')']}",WIKIANN
+292,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Christinna Pedersen / Kamilla Rytter Juhl","{'B-PER': ['Christinna', 'Kamilla'], 'I-PER': ['Pedersen', 'Rytter', 'Juhl']}",WIKIANN
+293,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+' '' Earl of Devonshire '' '","{'B-ORG': ['Earl'], 'I-ORG': ['of', 'Devonshire']}",WIKIANN
+294,"# Entities
+- B-LOC
+
+# Text
+Kamianets-Podilskyi in Ukraine '' ( since 1993 ) ''","{'B-LOC': ['Kamianets-Podilskyi', 'Ukraine']}",WIKIANN
+295,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+' '' North Dakota '' '","{'B-LOC': ['North'], 'I-LOC': ['Dakota']}",WIKIANN
+296,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- I-LOC
+
+# Text
+On May 17 , 2010 , TDBFG announced the purchase of The South Financial Group , based in Greenville , South Carolina , for $ 192 million .","{'B-ORG': ['The'], 'I-ORG': ['South', 'Financial', 'Group'], 'B-LOC': ['Greenville'], 'I-LOC': [',', 'South', 'Carolina']}",WIKIANN
+297,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- I-LOC
+
+# Text
+Purdue University , United States of America","{'B-ORG': ['Purdue'], 'I-ORG': ['University'], 'B-LOC': ['United'], 'I-LOC': ['States', 'of', 'America']}",WIKIANN
+298,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Chris Edmondson , Bishop of Bolton","{'B-PER': ['Chris', 'Bishop'], 'I-PER': ['Edmondson', 'of', 'Bolton']}",WIKIANN
+299,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+Deborah Norville – now weekday host of Inside Edition","{'B-PER': ['Deborah'], 'I-PER': ['Norville'], 'B-ORG': ['Inside'], 'I-ORG': ['Edition']}",WIKIANN
+300,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Volney F. Warner","{'B-PER': ['Volney'], 'I-PER': ['F.', 'Warner']}",WIKIANN
+301,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+• Donja Nevlja ( 31 )","{'B-LOC': ['Donja'], 'I-LOC': ['Nevlja']}",WIKIANN
+302,"# Entities
+- B-ORG
+
+# Text
+' '' Eskişehirspor '' '",{'B-ORG': ['Eskişehirspor']},WIKIANN
+303,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Embassy of the United States , Oslo","{'B-ORG': ['Embassy'], 'I-ORG': ['of', 'the', 'United', 'States', ',', 'Oslo']}",WIKIANN
+304,"# Entities
+- B-PER
+- I-PER
+
+# Text
+' '' With Jimmy Heath '' '","{'B-PER': ['Jimmy'], 'I-PER': ['Heath']}",WIKIANN
+305,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Han Yin ( Han dynasty )","{'B-PER': ['Han', 'Han'], 'I-PER': ['Yin', '(', 'dynasty', ')']}",WIKIANN
+306,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Ninglang Yi Autonomous County , Lijiang","{'B-LOC': ['Ninglang', 'Lijiang'], 'I-LOC': ['Yi', 'Autonomous', 'County']}",WIKIANN
+307,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+It is administered by the West African Examinations Council .","{'B-ORG': ['West'], 'I-ORG': ['African', 'Examinations', 'Council']}",WIKIANN
+308,"# Entities
+- B-LOC
+- I-LOC
+- B-ORG
+- I-ORG
+
+# Text
+: : ''Main articles : Little Hungarian Plain , Transdanubia , Great Alföld .","{'B-LOC': ['Little', 'Transdanubia'], 'I-LOC': ['Hungarian', 'Plain'], 'B-ORG': ['Great'], 'I-ORG': ['Alföld']}",WIKIANN
+309,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+T helper cell","{'B-LOC': ['T'], 'I-LOC': ['helper', 'cell']}",WIKIANN
+310,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Kubrat , Prince of Panagyurishte .","{'B-PER': ['Kubrat'], 'I-PER': [',', 'Prince', 'of', 'Panagyurishte']}",WIKIANN
+311,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Tam Dao Salamander ( ''Paramesotriton deloustali '' )","{'B-ORG': ['Tam'], 'I-ORG': ['Dao', 'Salamander']}",WIKIANN
+312,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+*2001 : Ornette Coleman - Of Human Feelings '' ( 1979 )","{'B-PER': ['Ornette'], 'I-PER': ['Coleman'], 'B-ORG': ['Of'], 'I-ORG': ['Human', 'Feelings']}",WIKIANN
+313,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Stanley Royle ( 1888–1961 )","{'B-PER': ['Stanley'], 'I-PER': ['Royle']}",WIKIANN
+314,"# Entities
+- B-LOC
+
+# Text
+: 18 Virginia 20 , 10",{'B-LOC': ['Virginia']},WIKIANN
+315,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Yona Metzger ( 2003–2013 )","{'B-PER': ['Yona'], 'I-PER': ['Metzger']}",WIKIANN
+316,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Census of India , Vegiwada had a population of 4,763 .","{'B-ORG': ['Census'], 'I-ORG': ['of', 'India']}",WIKIANN
+317,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+He is the Artistic Director of Boston Ballet , a position he has held since 2002 .","{'B-ORG': ['Boston'], 'I-ORG': ['Ballet']}",WIKIANN
+318,"# Entities
+- B-PER
+- I-PER
+
+# Text
+74 Joaquin Gonzalez OT ( IR ) 7px","{'B-PER': ['Joaquin'], 'I-PER': ['Gonzalez']}",WIKIANN
+319,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Jigme Singye Wangchuck","{'B-PER': ['Jigme'], 'I-PER': ['Singye', 'Wangchuck']}",WIKIANN
+320,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Abu Ubaidah ibn al-Jarrah","{'B-PER': ['Abu'], 'I-PER': ['Ubaidah', 'ibn', 'al-Jarrah']}",WIKIANN
+321,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Palmaris longus muscle","{'B-LOC': ['Palmaris'], 'I-LOC': ['longus', 'muscle']}",WIKIANN
+322,"# Entities
+- B-PER
+- I-PER
+
+# Text
+James Grimston , 2nd Viscount Grimston ( 1711–1773 )","{'B-PER': ['James'], 'I-PER': ['Grimston', ',', '2nd', 'Viscount', 'Grimston']}",WIKIANN
+323,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+Jake McGee , current MLB player ( Tampa Bay Rays )","{'B-PER': ['Jake'], 'I-PER': ['McGee'], 'B-ORG': ['MLB', 'Tampa'], 'I-ORG': ['Bay', 'Rays']}",WIKIANN
+324,"# Entities
+- B-ORG
+
+# Text
+Telecommunications ( 1992 )",{'B-ORG': ['Telecommunications']},WIKIANN
+325,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+
+# Text
+April 28 , 2011 : André Rouvoet ( CU ) replaced by Arie Slob .","{'B-PER': ['André', 'Arie'], 'I-PER': ['Rouvoet', 'Slob'], 'B-ORG': ['CU']}",WIKIANN
+326,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Ice Cube feat .","{'B-PER': ['Ice'], 'I-PER': ['Cube']}",WIKIANN
+327,"# Entities
+- B-PER
+- I-PER
+
+# Text
+In 1994 Jimmy White reached his sixth final , meeting Stephen Hendry for the fourth time in the final .","{'B-PER': ['Jimmy', 'Stephen'], 'I-PER': ['White', 'Hendry']}",WIKIANN
+328,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+Hélène Joy , Murdoch Mysteries ''","{'B-PER': ['Hélène'], 'I-PER': ['Joy'], 'B-ORG': ['Murdoch'], 'I-ORG': ['Mysteries']}",WIKIANN
+329,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+22x20px ' '' Nuevo León '' '","{'B-LOC': ['Nuevo'], 'I-LOC': ['León']}",WIKIANN
+330,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+South Coast railway line , New South Wales","{'B-ORG': ['South', 'South'], 'I-ORG': ['Coast', 'railway', 'line', ',', 'New', 'Wales']}",WIKIANN
+331,"# Entities
+- B-PER
+
+# Text
+Lyrics : Tsunku",{'B-PER': ['Tsunku']},WIKIANN
+332,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+' '' Kiangwe '' ' is a settlement in Kenya 's Coast Province .","{'B-LOC': ['Kenya', 'Coast'], 'I-LOC': ['Province']}",WIKIANN
+333,"# Entities
+- B-PER
+- I-PER
+
+# Text
+GeForce 800M series","{'B-PER': ['GeForce'], 'I-PER': ['800M', 'series']}",WIKIANN
+334,"# Entities
+- B-PER
+- I-PER
+
+# Text
+W. S. Merwin","{'B-PER': ['W.'], 'I-PER': ['S.', 'Merwin']}",WIKIANN
+335,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+He was partnered with Janette Manrara , reaching the semi-final .","{'B-ORG': ['Janette'], 'I-ORG': ['Manrara']}",WIKIANN
+336,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Mexicana de Aviación","{'B-ORG': ['Mexicana'], 'I-ORG': ['de', 'Aviación']}",WIKIANN
+337,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+`` I 'll Walk ''","{'B-ORG': ['I'], 'I-ORG': [""'ll"", 'Walk']}",WIKIANN
+338,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Reynoldsburg ( partial )","{'B-LOC': ['Reynoldsburg'], 'I-LOC': ['(', 'partial', ')']}",WIKIANN
+339,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+2nd Battalion , York and Lancaster Regiment","{'B-ORG': ['2nd'], 'I-ORG': ['Battalion', ',', 'York', 'and', 'Lancaster', 'Regiment']}",WIKIANN
+340,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Southern Pacific Transportation Company","{'B-ORG': ['Southern'], 'I-ORG': ['Pacific', 'Transportation', 'Company']}",WIKIANN
+341,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+He has also played in the Scottish Premier League for Celtic and Aberdeen and in the Football League with Swindon Town , Millwall , Cardiff City , Leeds United , Norwich City , Barnsley , Leicester City , Charlton Athletic , Scunthorpe United and Tranmere Rovers .","{'B-ORG': ['Scottish', 'Celtic', 'Aberdeen', 'Football', 'Swindon', 'Millwall', 'Cardiff', 'Leeds', 'Norwich', 'Barnsley', 'Leicester', 'Charlton', 'Scunthorpe', 'Tranmere'], 'I-ORG': ['Premier', 'League', 'League', 'Town', 'City', 'United', 'City', 'City', 'Athletic', 'United', 'Rovers']}",WIKIANN
+342,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Jefferson Davis ! ! 2 ! !","{'B-PER': ['Jefferson'], 'I-PER': ['Davis']}",WIKIANN
+343,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Non-military personnel , usually for positions within the Army Reserve may also be appointed to the ceremonial position .","{'B-ORG': ['Army'], 'I-ORG': ['Reserve']}",WIKIANN
+344,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Koyukuk National Wildlife Refuge ( part )","{'B-LOC': ['Koyukuk'], 'I-LOC': ['National', 'Wildlife', 'Refuge']}",WIKIANN
+345,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+It lies south-east of Aleksandrów Kujawski and south-east of Toruń .","{'B-LOC': ['Aleksandrów', 'Toruń'], 'I-LOC': ['Kujawski']}",WIKIANN
+346,"# Entities
+- B-PER
+- I-PER
+
+# Text
+' '' Sylvain Guintoli '' '","{'B-PER': ['Sylvain'], 'I-PER': ['Guintoli']}",WIKIANN
+347,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Gibson County ( northeast )","{'B-LOC': ['Gibson'], 'I-LOC': ['County']}",WIKIANN
+348,"# Entities
+- B-ORG
+- B-PER
+- I-PER
+
+# Text
+*2008 : `` Beast '' - V.I.C .","{'B-ORG': ['Beast'], 'B-PER': ['V.I.C'], 'I-PER': ['.']}",WIKIANN
+349,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+Josh Freese ( The Vandals , Devo , Nine Inch Nails , Guns N ' Roses , Weezer )","{'B-PER': ['Josh'], 'I-PER': ['Freese'], 'B-ORG': ['The', 'Devo', 'Nine', 'Guns', 'Weezer'], 'I-ORG': ['Vandals', 'Inch', 'Nails', 'N', ""'"", 'Roses']}",WIKIANN
+350,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Ruins of the Devín Castle","{'B-ORG': ['Devín'], 'I-ORG': ['Castle']}",WIKIANN
+351,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Lucy Russell , Countess of Bedford was his daughter .","{'B-PER': ['Lucy'], 'I-PER': ['Russell', ',', 'Countess', 'of', 'Bedford']}",WIKIANN
+352,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Robert Pogue Harrison","{'B-PER': ['Robert'], 'I-PER': ['Pogue', 'Harrison']}",WIKIANN
+353,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+- I-LOC
+
+# Text
+Williams Stadium at Liberty University in Lynchburg , Virginia","{'B-ORG': ['Williams', 'Liberty'], 'I-ORG': ['Stadium', 'University'], 'B-LOC': ['Lynchburg'], 'I-LOC': [',', 'Virginia']}",WIKIANN
+354,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Sir Thomas Wolryche , 1st Baronet","{'B-PER': ['Sir'], 'I-PER': ['Thomas', 'Wolryche', ',', '1st', 'Baronet']}",WIKIANN
+355,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+He played in the National Football League with Arizona Cardinals , in NFL Europe with Berlin Thunder , and in the Arena Football League with Columbus Destroyers .","{'B-ORG': ['National', 'Arizona', 'NFL', 'Berlin', 'Arena', 'Columbus'], 'I-ORG': ['Football', 'League', 'Cardinals', 'Europe', 'Thunder', 'Football', 'League', 'Destroyers']}",WIKIANN
+356,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Josef Philipp Vukassovich","{'B-PER': ['Josef'], 'I-PER': ['Philipp', 'Vukassovich']}",WIKIANN
+357,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+International Lesbian , Gay , Bisexual , Transgender & Intersex Law Association","{'B-ORG': ['International'], 'I-ORG': ['Lesbian', ',', 'Gay', ',', 'Bisexual', ',', 'Transgender', '&', 'Intersex', 'Law', 'Association']}",WIKIANN
+358,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+
+# Text
+It featured such tracks as Shaggy 2 Dope performing Twiztid 's `` Fall Apart '' and an Esham and Boondox collaboration .","{'B-PER': ['Shaggy', 'Esham', 'Boondox'], 'I-PER': ['2', 'Dope'], 'B-ORG': ['Twiztid']}",WIKIANN
+359,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+Samuel Jordan Kirkwood , Iowa","{'B-ORG': ['Samuel'], 'I-ORG': ['Jordan', 'Kirkwood'], 'B-LOC': ['Iowa']}",WIKIANN
+360,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Edmund Sheffield , 1st Earl of Mulgrave","{'B-PER': ['Edmund'], 'I-PER': ['Sheffield', ',', '1st', 'Earl', 'of', 'Mulgrave']}",WIKIANN
+361,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Decker Prairie , Texas","{'B-LOC': ['Decker'], 'I-LOC': ['Prairie', ',', 'Texas']}",WIKIANN
+362,"# Entities
+- B-LOC
+- I-LOC
+- B-ORG
+- I-ORG
+
+# Text
+Davao City - General Santos City","{'B-LOC': ['Davao'], 'I-LOC': ['City'], 'B-ORG': ['General'], 'I-ORG': ['Santos', 'City']}",WIKIANN
+363,"# Entities
+- B-ORG
+
+# Text
+Dexter '' ( won one )",{'B-ORG': ['Dexter']},WIKIANN
+364,"# Entities
+- B-PER
+
+# Text
+It was described by Rothschild in 1920 .",{'B-PER': ['Rothschild']},WIKIANN
+365,"# Entities
+- B-PER
+- I-PER
+
+# Text
+The album track was used as the second ending theme for PaRappa the Rapper .","{'B-PER': ['PaRappa'], 'I-PER': ['the', 'Rapper']}",WIKIANN
+366,"# Entities
+- B-ORG
+
+# Text
+In August 2006 and October 2007 Facebook began negotiations to purchase StudiVZ 's websites .","{'B-ORG': ['Facebook', 'StudiVZ']}",WIKIANN
+367,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+'' Celaenorrhinus homeyeri '' ( Plötz , 1880 )","{'B-LOC': ['Celaenorrhinus'], 'I-LOC': ['homeyeri']}",WIKIANN
+368,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Maryanne Ito - primary artist","{'B-PER': ['Maryanne'], 'I-PER': ['Ito']}",WIKIANN
+369,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+*Has made several trips to the Middle East , visiting troops in Iraq and Afghanistan , as well as visiting Kyrgyzstan , Afghanistan , Kuwait , Bahrain , Saudi Arabia , the United Arab Emirates and Qatar .","{'B-LOC': ['Middle', 'Iraq', 'Afghanistan', 'Kyrgyzstan', 'Afghanistan', 'Kuwait', 'Bahrain', 'Saudi', 'United', 'Qatar'], 'I-LOC': ['East', 'Arabia', 'Arab', 'Emirates']}",WIKIANN
+370,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Rose Canyon Lake","{'B-LOC': ['Rose'], 'I-LOC': ['Canyon', 'Lake']}",WIKIANN
+371,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+In 1998 and 1999 , he played for the Osaka Kintetsu Buffaloes in Japan 's Nippon Professional Baseball .","{'B-ORG': ['Osaka', 'Nippon'], 'I-ORG': ['Kintetsu', 'Buffaloes', 'Professional', 'Baseball'], 'B-LOC': ['Japan']}",WIKIANN
+372,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Kateb Yacine , author","{'B-PER': ['Kateb'], 'I-PER': ['Yacine']}",WIKIANN
+373,"# Entities
+- B-ORG
+
+# Text
+Label : Limelight ( LM 82038 )",{'B-ORG': ['Limelight']},WIKIANN
+374,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+'' Smooth Operator ''","{'B-ORG': ['Smooth'], 'I-ORG': ['Operator']}",WIKIANN
+375,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Aida Turturro as Janice Soprano","{'B-PER': ['Aida', 'Janice'], 'I-PER': ['Turturro', 'Soprano']}",WIKIANN
+376,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Edvardas Gudavičius – historian ,","{'B-PER': ['Edvardas'], 'I-PER': ['Gudavičius']}",WIKIANN
+377,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+'' Eresiomera jacksoni ''","{'B-LOC': ['Eresiomera'], 'I-LOC': ['jacksoni']}",WIKIANN
+378,"# Entities
+- B-PER
+- I-PER
+
+# Text
+In 1437 , it was captured by John Talbot , 1st Earl of Shrewsbury .","{'B-PER': ['John'], 'I-PER': ['Talbot', ',', '1st', 'Earl', 'of', 'Shrewsbury']}",WIKIANN
+379,"# Entities
+- B-PER
+- I-PER
+- B-ORG
+- I-ORG
+
+# Text
+The exhibition also included work by William Christenberry , Robert Frank , Sebastiao Salgado and David Byrne .","{'B-PER': ['William', 'Robert', 'David'], 'I-PER': ['Christenberry', 'Frank', 'Byrne'], 'B-ORG': ['Sebastiao'], 'I-ORG': ['Salgado']}",WIKIANN
+380,"# Entities
+- B-LOC
+
+# Text
+He hailed from Søgne .",{'B-LOC': ['Søgne']},WIKIANN
+381,"# Entities
+- B-ORG
+- I-ORG
+- B-LOC
+
+# Text
+Celtic Park , Glasgow ( 60,832 )","{'B-ORG': ['Celtic'], 'I-ORG': ['Park'], 'B-LOC': ['Glasgow']}",WIKIANN
+382,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+Live at Leeds","{'B-ORG': ['Live'], 'I-ORG': ['at', 'Leeds']}",WIKIANN
+383,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Sid Tepper , Roy C. Bennett","{'B-PER': ['Sid', 'Roy'], 'I-PER': ['Tepper', 'C.', 'Bennett']}",WIKIANN
+384,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Judge Reinhold , Fred Savage","{'B-PER': ['Judge', 'Fred'], 'I-PER': ['Reinhold', 'Savage']}",WIKIANN
+385,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+The Next : Fame Is at Your Doorstep ''","{'B-ORG': ['The'], 'I-ORG': ['Next', ':', 'Fame', 'Is', 'at', 'Your', 'Doorstep']}",WIKIANN
+386,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+:1st , Stage 1 , Vuelta a España","{'B-ORG': ['Vuelta'], 'I-ORG': ['a', 'España']}",WIKIANN
+387,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Girton , Cambridgeshire , England","{'B-LOC': ['Girton', 'England'], 'I-LOC': [',', 'Cambridgeshire']}",WIKIANN
+388,"# Entities
+- B-PER
+- I-PER
+
+# Text
+Anne Jones ( writer )","{'B-PER': ['Anne'], 'I-PER': ['Jones', '(', 'writer', ')']}",WIKIANN
+389,"# Entities
+- B-ORG
+- I-ORG
+- B-PER
+- I-PER
+
+# Text
+'' Bring Me to Life '' - Evanescence featuring Paul McCoy","{'B-ORG': ['Bring', 'Evanescence'], 'I-ORG': ['Me', 'to', 'Life'], 'B-PER': ['Paul'], 'I-PER': ['McCoy']}",WIKIANN
+390,"# Entities
+- B-ORG
+
+# Text
+from Wellesley in 1962 .",{'B-ORG': ['Wellesley']},WIKIANN
+391,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Newhall School District","{'B-LOC': ['Newhall'], 'I-LOC': ['School', 'District']}",WIKIANN
+392,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Aragats , Aragatsotn","{'B-LOC': ['Aragats'], 'I-LOC': [',', 'Aragatsotn']}",WIKIANN
+393,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Greene , New York – $ 16,608","{'B-LOC': ['Greene'], 'I-LOC': [',', 'New', 'York']}",WIKIANN
+394,"# Entities
+- B-ORG
+- I-ORG
+- B-PER
+- I-PER
+
+# Text
+To Los Angeles Kings Dan Cloutier","{'B-ORG': ['Los'], 'I-ORG': ['Angeles', 'Kings'], 'B-PER': ['Dan'], 'I-PER': ['Cloutier']}",WIKIANN
+395,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Fort Yates : 455 , 854","{'B-LOC': ['Fort'], 'I-LOC': ['Yates']}",WIKIANN
+396,"# Entities
+- B-ORG
+- I-ORG
+
+# Text
+'' Martial Arts ''","{'B-ORG': ['Martial'], 'I-ORG': ['Arts']}",WIKIANN
+397,"# Entities
+- B-LOC
+- I-LOC
+- B-PER
+
+# Text
+'' Pannonian Croatia '' ' – Vojnomir ( 791-c.810 )","{'B-LOC': ['Pannonian'], 'I-LOC': ['Croatia'], 'B-PER': ['Vojnomir']}",WIKIANN
+398,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+River of Ponds","{'B-LOC': ['River'], 'I-LOC': ['of', 'Ponds']}",WIKIANN
+399,"# Entities
+- B-LOC
+- I-LOC
+
+# Text
+Uyunid Emirate ( 1076–1253 )","{'B-LOC': ['Uyunid'], 'I-LOC': ['Emirate']}",WIKIANN
+400,"# Entities
+- B-PER
+- I-PER
+
+# Text
+*ALLESTONE — From the stories of Thomas Williams Malkin","{'B-PER': ['Thomas'], 'I-PER': ['Williams', 'Malkin']}",WIKIANN
