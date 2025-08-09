@@ -77,7 +77,7 @@ class NERSLMTrainer:
                 'logging_steps': 10,
                 'eval_steps': 100,
                 'save_steps': 500,
-                'eval_strategy': 'steps',
+                'evaluation_strategy': 'steps',  # Use the old parameter name for compatibility
                 'save_strategy': 'steps',
                 'load_best_model_at_end': True,
                 'metric_for_best_model': 'eval_loss',
@@ -311,10 +311,26 @@ class NERSLMTrainer:
         self.load_model_and_tokenizer()
         tokenized_datasets = self.prepare_datasets()
         
+        # Fix training arguments for compatibility
+        # Remove unsupported keys from training_args_dict
+        unsupported_keys = ['max_length']  # Add others if you see errors
+
+        for key in unsupported_keys:
+            if key in training_args_dict:
+                print(f"Removing unsupported training argument: {key}")
+                training_args_dict.pop(key)
+
+        training_args_dict = self.config['training_args'].copy()
+        
+        # Handle evaluation strategy compatibility
+        if 'eval_strategy' in training_args_dict:
+            # If using new parameter name, map to old one for compatibility
+            training_args_dict['evaluation_strategy'] = training_args_dict.pop('eval_strategy')
+        
         # Training arguments
         training_args = TrainingArguments(
             output_dir=self.config['output_dir'],
-            **self.config['training_args']
+            **training_args_dict
         )
         
         # Data collator
@@ -395,7 +411,7 @@ def main():
                 'logging_steps': 10,
                 'eval_steps': 100,
                 'save_steps': 500,
-                'eval_strategy': 'steps',
+                'evaluation_strategy': 'steps',            # Use old parameter name for compatibility
                 'save_strategy': 'steps',
                 'load_best_model_at_end': True,
                 'metric_for_best_model': 'eval_loss',
